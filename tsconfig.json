@@ -1,0 +1,31 @@
+{
+  "include": ["**/*.ts"],
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "strict": false,
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false,
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "module": "ES2020",
+    "target": "ES2020",
+    "lib": [
+      "ES2021",
+      "ES6",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "allowJs": false,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "paths": {
+      "/": [
+        "./"
+      ],
+      "/*": [
+        "./*"
+      ]
+    },
+    "outDir": "build"
+  },
+}

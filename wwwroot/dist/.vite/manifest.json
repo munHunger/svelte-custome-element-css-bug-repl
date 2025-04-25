@@ -1,0 +1,8 @@
+{
+  "src/index.ts": {
+    "file": "Public.js",
+    "name": "Public",
+    "src": "src/index.ts",
+    "isEntry": true
+  }
+}

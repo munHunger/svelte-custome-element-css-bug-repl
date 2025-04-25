@@ -1,0 +1,6 @@
+{
+    "name": "Node.js",
+    "image": "mcr.microsoft.com/devcontainers/typescript-node:dev-22-bullseye",
+    "features": {
+    }
+  }
